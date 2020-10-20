@@ -1,17 +1,25 @@
 <html>
+<head>
+  <title>Notas</title>
+  <link href="hojaestilo.css" rel="stylesheet" />
+</head>
+<div class="d0">
+        <div class="d1">
+            <p class="t1">Realice (a) con el codeigniter pero sin Bases de Datos.</p>   
+        </div>
+    </div>
 <body>
 <table border="2" ><tr>
-<td><b>Chuquisaca</b></td>
-<td><b>La Paz</b></td>
-<td><b>Cochabamba</b></td>
-<td><b>Santa Cruz</b></td>
-<td><b>Beni</b></td>
-<td><b>Pando</b></td>
-<td><b>Tarija</b></td>
-<td><b>Potosi</b></td>
-<td><b>Oruro</b></td>
+    <th>Chuquisaca</th>
+    <th>La Paz</th>
+    <th>Cochabamba</th>
+    <th>Santa Cruz</th>
+    <th>Beni</th>    
+    <th>Pando</th>
+    <th>Tarija</th>
+    <th>Potosi</th>
+    <th>Oruro</th>
 </tr>
-
 <?php 
 include "conexion.inc.php";
     $sql="SELECT * from notas";    
